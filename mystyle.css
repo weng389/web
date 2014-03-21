@@ -1,0 +1,136 @@
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color: white;
+}
+
+.div-title{
+	font: 20px/ 1.5 微軟正黑體;
+}
+
+body{
+	background: url(http://subtlepatterns.com/patterns/squared_metal.png) left center repeat;
+}
+
+h1{
+	float: left;
+	margin: 0em;
+}
+
+span.weather, .top-nav>a{
+	font: 15px/1.5 新細明體;
+	display: inline;
+}
+.second-nav{
+	width: 100%;
+	height: 74px;
+}
+
+.second-nav > a{
+	font: 15px/1.5 新細明體;
+}
+
+.second-nav > nav{
+	display:none;
+}
+
+a.intro:hover  ~ nav.intro{
+	display: block;
+}
+
+a.tip:hover  ~ nav.tip{
+	display: block;
+}
+
+a.trip:hover  ~ nav.trip{
+	display: block;
+}
+
+a.food:hover  ~ nav.food{
+	display: block;
+}
+
+a.private:hover  ~ nav.private{
+	display: block;
+}
+
+a.guide:hover  ~ nav.guide{
+	display: block;
+}
+
+a.free:hover  ~ nav.free{
+	display: block;
+}
+
+section{
+	width: 911px;
+    min-height: 100%;
+}
+
+.sidebar{
+	float:left;
+	padding: 1em;
+}
+
+.widget{
+	float:right;
+}
+
+article{
+	display: inline-block;
+    padding-bottom: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+    margin: 10px;
+    width: 500px;
+}
+
+.main-top{
+  font: 15px/1.5 微軟正黑體;
+}
+
+.widget  ul{
+  list-style-type: none;
+}
+.photo{
+  float: left;
+  margin: 1em;
+}
+.place p{
+  font: 15px/1.4 微軟正黑體;
+}
+
+footer{
+	font: 15px/1 微軟正黑體;
+  margin:1em;
+}
+
+.place-photo{
+    margin: 1em;
+}
+
+.hotplace ul,
+.recommendplace ul{
+    list-style-type: none;
+}
+
+.place-name{
+  font: 13px/1.5 微軟正黑體;
+}
+
+.categories a{
+  font: 13px/1.3 微軟正黑體;
+}
+
+.place{
+	border: 1px dashed grey;
+	margin: 1em;
+	padding: 10px;
+}
+
+.name{
+	margin-top: 1em;
+	padding-top: 10px;
+}
