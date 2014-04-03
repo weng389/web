@@ -1,0 +1,152 @@
+body {
+    min-width: 960px;
+    background: url(http://subtlepatterns.com/patterns/pw_pattern.png);
+}
+
+.header, .nav, .content, .foot{
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+.bigtitle, .myphoto, .button, .school, .time{
+  display: inline;
+  float: left;
+}
+
+.bigtitle{
+    width: 630px;
+    height: 270px;
+    background: #2A2A2A;
+    padding: 15px;
+}
+
+.myphoto{
+    width: 300px;
+}
+
+.myname{
+    font-family: 'Viga', sans-serif;
+    font-size: 40px;
+    color: white;
+    line-height: 10px;
+}
+
+.empty{
+    height: 30px;
+}
+
+.contact{
+    font-family: 'Hammersmith One', Microsoft JhengHei;
+    font-size: 15px;
+    color: white;
+    line-height: 5px;
+}
+
+.button{
+    background: #2A465E;
+    width:240px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+.button a{
+    background: #2E5C70;
+    padding-left: 2em;
+    padding-right: 2em;
+    color: white;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+    
+
+.button :hover{
+    background: #98C5EA;
+}
+
+.content{
+    background: #FFFFFF;
+    width: 960px;
+    height: 800px;
+}
+
+.time{
+    width: 210px;
+    font-family: 'Viga', Microsoft JhengHei;
+    font-size: 25px;
+    color:  #2A2A2A;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 1em;
+    text-align: center;
+   
+}
+
+.school {
+    width: 700px;
+    font-family: 'Viga', Microsoft JhengHei;
+    font-size: 22px;
+    font-weight: bold; 
+    color:#2A465E;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 1em;
+}
+
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.dept{
+    width: 650px;
+    font-family:  'Rosario', Microsoft JhengHei;
+    font-size: 20px;
+    font-weight: normal;
+    color:#2A2A2A;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 1em;
+}
+
+.foot{
+    font-family:'Rosario', Microsoft JhengHei;
+    font-size: 15px;
+    color:white;
+    text-align: center;
+    background: #2A2A2A;
+    width: 960px;
+    height: 30px;
+}
+
+fieldset {
+    font-family:'Rosario', Microsoft JhengHei;
+    border: 0;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    
+}
+
+legend {
+    font-family:'Rosario', Microsoft JhengHei;
+    padding: 4px 4px;
+    background-color: #2A2A2A;
+    color: #FFF;
+}
+
+input[type=submit] {
+    font-family:'Rosario', Microsoft JhengHei;
+    font-size: 15px ;
+    font-weight: bold; 
+    background: #2A465E;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    float: left;
+}
